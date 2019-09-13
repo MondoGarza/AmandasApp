@@ -11,7 +11,7 @@ import Lottie
 
 class SecondViewController: UIViewController {
     
-    let animationTime = 10
+    let animationTime: TimeInterval = 3
     let lottieAnimationName = "bouncing_heart"
 
     @IBOutlet weak var nextButtonOutlet: UIButton!
@@ -40,7 +40,7 @@ class SecondViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        UIView.animate(withDuration: 1, animations: {
+        UIView.animate(withDuration: animationTime, animations: {
             self.andILabel.alpha = 1
         }) { (true) in
             self.showiLoveYouLabel()
@@ -48,7 +48,7 @@ class SecondViewController: UIViewController {
     }
     
     func showiLoveYouLabel(){
-        UIView.animate(withDuration: 3, animations: {
+        UIView.animate(withDuration: animationTime, animations: {
             self.andILabel.alpha = 0.25
             self.iLoveYouLabel.alpha = 1
         }) { (true) in
@@ -58,7 +58,7 @@ class SecondViewController: UIViewController {
     }
     
     func showmoresoLabel(){
-        UIView.animate(withDuration: 3, animations: {
+        UIView.animate(withDuration: animationTime, animations: {
             self.moresoLabel.alpha = 1
         }) { (true) in
             self.showCutePic()
@@ -66,7 +66,7 @@ class SecondViewController: UIViewController {
     }
     
     func showCutePic(){
-        UIView.animate(withDuration: 3, animations: {
+        UIView.animate(withDuration: animationTime, animations: {
             self.anotherPicLabel.alpha = 1
             self.theImageView.alpha = 1
         }) { (true) in

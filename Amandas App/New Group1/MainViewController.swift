@@ -9,7 +9,7 @@
 import UIKit
 
 class MainViewController: UIViewController {
-    let animationTime = 10
+    let animationTime: TimeInterval = 3
     
     //Labels
     @IBOutlet weak var viewControllerNumber: UILabel!
@@ -53,7 +53,7 @@ class MainViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        UIView.animate(withDuration: 1, animations: {
+        UIView.animate(withDuration: animationTime, animations: {
             self.asYouLabel.alpha = 1
         }) { (true) in
             self.showYouCuteLabel()
@@ -61,7 +61,7 @@ class MainViewController: UIViewController {
     }
     
     func showYouCuteLabel(){
-        UIView.animate(withDuration: 1, animations: {
+        UIView.animate(withDuration: animationTime, animations: {
             self.youCuteLabel.alpha = 1
         }) { (true) in
             self.showHerePicture()
@@ -69,7 +69,7 @@ class MainViewController: UIViewController {
     }
     
     func showHerePicture(){
-        UIView.animate(withDuration: 3, animations: {
+        UIView.animate(withDuration: animationTime, animations: {
             self.asSeenBelowLabel.alpha = 1
             self.hereLabel.alpha = 1
             self.cafeImageView.alpha = 1
@@ -79,7 +79,7 @@ class MainViewController: UIViewController {
     }
     
     func showCutePic(){
-        UIView.animate(withDuration: 3, animations: {
+        UIView.animate(withDuration: animationTime, animations: {
             self.andHereLabel.alpha = 1
             self.fingersImageView.alpha = 1
         }) { (true) in
@@ -88,7 +88,7 @@ class MainViewController: UIViewController {
     }
     
     func showAndAlsoHerePic(){
-        UIView.animate(withDuration: 3, animations: {
+        UIView.animate(withDuration: animationTime, animations: {
             self.andAlsoHereLabel.alpha = 1
             self.boardwalkImageView.alpha = 1
         }) { (true) in

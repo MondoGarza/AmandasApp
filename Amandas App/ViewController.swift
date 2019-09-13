@@ -11,7 +11,7 @@ import Lottie
 
 class ViewController: UIViewController {
     
-    let animationTime = 3
+    let animationTime: TimeInterval = 3
     var noPressed: Int = 0
     
     @IBOutlet weak var animationView: AnimationView!
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        UIView.animate(withDuration: TimeInterval(animationTime), animations: {
+        UIView.animate(withDuration: animationTime, animations: {
             self.withThatLabel.alpha = 1
         }) { (true) in
             self.showSecondTitle()
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     }
     
     func showSecondTitle(){
-        UIView.animate(withDuration: TimeInterval(animationTime), animations: {
+        UIView.animate(withDuration: animationTime, animations: {
             self.firstLabelOutlet.alpha = 1
             self.withThatLabel.alpha = 0.25
         }) { (true) in
@@ -56,7 +56,7 @@ class ViewController: UIViewController {
     }
     
     func showButtons(){
-        UIView.animate(withDuration: TimeInterval(animationTime), animations: {
+        UIView.animate(withDuration: animationTime, animations: {
             self.secondLabelOutlet.alpha = 1
             self.firstLabelOutlet.alpha = 0.25
         }) { (true) in
