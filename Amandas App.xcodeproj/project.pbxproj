@@ -12,6 +12,7 @@
 		980DDAFD23283D4400450823 /* Hearts_Falling.json in Resources */ = {isa = PBXBuildFile; fileRef = 980DDAFC23283D4400450823 /* Hearts_Falling.json */; };
 		982AC3DC2329691500535E4D /* buttonAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982AC3DB2329691400535E4D /* buttonAnimationExtension.swift */; };
 		982AC3DE23296E2B00535E4D /* Error_Indicator.json in Resources */ = {isa = PBXBuildFile; fileRef = 982AC3DD23296E2B00535E4D /* Error_Indicator.json */; };
+		985827432331945100B76C9D /* loader-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 985827422331945100B76C9D /* loader-animation.json */; };
 		98614A01232873D600689307 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98614A00232873D600689307 /* MainViewController.swift */; };
 		98614A032328C5F400689307 /* Right_Arrow.json in Resources */ = {isa = PBXBuildFile; fileRef = 98614A022328C5F400689307 /* Right_Arrow.json */; };
 		98614A052328C9FD00689307 /* emoji_wink.json in Resources */ = {isa = PBXBuildFile; fileRef = 98614A042328C9FD00689307 /* emoji_wink.json */; };
@@ -25,9 +26,7 @@
 		98ED170C2329B20300C379EF /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ED170B2329B20300C379EF /* ErrorViewController.swift */; };
 		98ED170E2329B39A00C379EF /* Dead_Emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = 98ED170D2329B39A00C379EF /* Dead_Emoji.json */; };
 		98ED1710232ACD4900C379EF /* bouncing_heart.json in Resources */ = {isa = PBXBuildFile; fileRef = 98ED170F232ACD4900C379EF /* bouncing_heart.json */; };
-		98ED1712232AD65D00C379EF /* gradient-background.json in Resources */ = {isa = PBXBuildFile; fileRef = 98ED1711232AD65D00C379EF /* gradient-background.json */; };
 		98ED1714232AD67C00C379EF /* TheMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ED1713232AD67C00C379EF /* TheMainViewController.swift */; };
-		98ED1716232AD90000C379EF /* loader-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 98ED1715232AD90000C379EF /* loader-animation.json */; };
 		98ED1718232ADD6800C379EF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98ED1717232ADD6700C379EF /* icon.png */; };
 		98ED171A232AE14000C379EF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ED1719232AE14000C379EF /* File.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +37,7 @@
 		980DDAFC23283D4400450823 /* Hearts_Falling.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hearts_Falling.json; sourceTree = "<group>"; };
 		982AC3DB2329691400535E4D /* buttonAnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonAnimationExtension.swift; sourceTree = "<group>"; };
 		982AC3DD23296E2B00535E4D /* Error_Indicator.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Error_Indicator.json; path = "../New Group/Error_Indicator.json"; sourceTree = "<group>"; };
+		985827422331945100B76C9D /* loader-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loader-animation.json"; sourceTree = "<group>"; };
 		98614A00232873D600689307 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "../New Group1/MainViewController.swift"; sourceTree = "<group>"; };
 		98614A022328C5F400689307 /* Right_Arrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Right_Arrow.json; sourceTree = "<group>"; };
 		98614A042328C9FD00689307 /* emoji_wink.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji_wink.json; sourceTree = "<group>"; };
@@ -53,9 +53,7 @@
 		98ED170B2329B20300C379EF /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
 		98ED170D2329B39A00C379EF /* Dead_Emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Dead_Emoji.json; path = "../../../IOS Lottie Animations/Dead_Emoji.json"; sourceTree = "<group>"; };
 		98ED170F232ACD4900C379EF /* bouncing_heart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bouncing_heart.json; path = "../../../IOS Lottie Animations/bouncing_heart.json"; sourceTree = "<group>"; };
-		98ED1711232AD65D00C379EF /* gradient-background.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "gradient-background.json"; path = "../../../IOS Lottie Animations/gradient-background.json"; sourceTree = "<group>"; };
 		98ED1713232AD67C00C379EF /* TheMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMainViewController.swift; sourceTree = "<group>"; };
-		98ED1715232AD90000C379EF /* loader-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "loader-animation.json"; path = "../../../IOS Lottie Animations/loader-animation.json"; sourceTree = "<group>"; };
 		98ED1717232ADD6700C379EF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../Images/icon.png; sourceTree = "<group>"; };
 		98ED1719232AE14000C379EF /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		C61DEC75D6AF29215AE02D01 /* Pods-Amandas App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amandas App.debug.xcconfig"; path = "Target Support Files/Pods-Amandas App/Pods-Amandas App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,8 +84,7 @@
 		982AC3DF23296E3500535E4D /* Lottie Animations */ = {
 			isa = PBXGroup;
 			children = (
-				98ED1715232AD90000C379EF /* loader-animation.json */,
-				98ED1711232AD65D00C379EF /* gradient-background.json */,
+				985827422331945100B76C9D /* loader-animation.json */,
 				98ED170F232ACD4900C379EF /* bouncing_heart.json */,
 				98ED170D2329B39A00C379EF /* Dead_Emoji.json */,
 				980DDAF823282D5B00450823 /* Heart_Fillup.json */,
@@ -216,14 +213,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				98ED170E2329B39A00C379EF /* Dead_Emoji.json in Resources */,
-				98ED1716232AD90000C379EF /* loader-animation.json in Resources */,
 				980DDAFD23283D4400450823 /* Hearts_Falling.json in Resources */,
 				980DDAF923282D5B00450823 /* Heart_Fillup.json in Resources */,
 				986C108A2326E6930058BAEB /* LaunchScreen.storyboard in Resources */,
 				98614A052328C9FD00689307 /* emoji_wink.json in Resources */,
 				98614A032328C5F400689307 /* Right_Arrow.json in Resources */,
+				985827432331945100B76C9D /* loader-animation.json in Resources */,
 				98ED1718232ADD6800C379EF /* icon.png in Resources */,
-				98ED1712232AD65D00C379EF /* gradient-background.json in Resources */,
 				986C10872326E6930058BAEB /* Assets.xcassets in Resources */,
 				98ED1710232ACD4900C379EF /* bouncing_heart.json in Resources */,
 				982AC3DE23296E2B00535E4D /* Error_Indicator.json in Resources */,
